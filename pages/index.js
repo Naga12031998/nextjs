@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Head>
         <title>Char List | Home</title>
-        <meta name="keywords" content="ninjas" />
+        <meta name="keywords" content="characters" />
       </Head>
       <div>
         <h1 className={styles.title}>Home page</h1>

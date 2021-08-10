@@ -5,7 +5,7 @@ const About = () => {
     <>
       <Head>
         <title>Char List | About</title>
-        <meta name="keywords" content="ninjas" />
+        <meta name="keywords" content="characters" />
       </Head>
       <div>
         <h1>About</h1>

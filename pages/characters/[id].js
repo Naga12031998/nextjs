@@ -24,21 +24,21 @@ export const getStaticProps = async (context) => {
   const data = await res.json();
 
   return {
-    props: { ninja: data },
+    props: { char: data },
   };
 };
 
-const Details = ({ ninja }) => {
+const Details = ({ char }) => {
   return (
     <>
       <Head>
-        <title>Char List | {ninja.name}</title>
+        <title>Char List | {char.name}</title>
         <meta name="keywords" content="characters" />
       </Head>
-      <h1>{ninja.name}</h1>
-      <p>{ninja.email}</p>
-      <p>{ninja.website}</p>
-      <p>{ninja.address.city}</p>
+      <h1>{char.name}</h1>
+      <p>{char.email}</p>
+      <p>{char.website}</p>
+      <p>{char.address.city}</p>
     </>
   );
 };

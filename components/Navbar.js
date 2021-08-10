@@ -9,7 +9,7 @@ const NavBar = () => {
         <Image src="/a.png" width={128} height={120} alt="navLogo" />
       </div>
       <Link href="/">Home</Link>
-      <Link href="/about">about</Link>
+      <Link href="/about">About</Link>
       <Link href="/characters">Char Listing</Link>
     </nav>
   );
