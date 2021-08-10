@@ -10,7 +10,7 @@ const About = () => {
       <div>
         <h1>About</h1>
         <p>
-          A task for my learning. allows a visitor see 10 random people's
+          A task for my learning. allows a visitor see 10 random people
           information which is fetched from{" "}
           <span>
             <a
